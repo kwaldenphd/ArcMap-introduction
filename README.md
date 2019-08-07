@@ -35,31 +35,31 @@ ArcGIS draws data on a map using shape files (.shp). A Shapefile is actually com
 
 6-To open ArcMap, go to <strong>Start</strong>, then type "ArcMap" into the search bar. Click on the globe icon that pops up to start the program.
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_1.PNG?raw=true"><img class="aligncenter size-full wp-image-518" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_1.PNG?raw=true" alt="" width="799" height="519" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_1.PNG?raw=true"><img class="aligncenter size-full wp-image-518" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_1.PNG?raw=true" alt="" width="799" height="519" /></a></p>
 
 7-Click on the <strong>Blank Map</strong> icon, and the program will open a blank ArcGIS map project. Save this project as "GIS_Tutorial" or another descriptive name of your choosing.
 
 ## Importing Shapefiles into ArcMap:
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_2.PNG?raw=true"><img class="aligncenter size-full wp-image-519" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_1.PNG?raw=true" alt="" width="147" height="23" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_2.PNG?raw=true"><img class="aligncenter size-full wp-image-519" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_1.PNG?raw=true" alt="" width="147" height="23" /></a></p>
 
 8-Click on the <strong>Catalog</strong> button on the right-hand side of the window to open <strong>ArcCatalog</strong>, ArcMap's program for connecting to files on your computer. ArcCatalogue can be run independently or within ArcMap, and locates files on your computer using folder connections.
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_4.PNG?raw=true"><img class="aligncenter size-full wp-image-521" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_4.PNG?raw=true" alt="" width="304" height="479" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_4.PNG?raw=true"><img class="aligncenter size-full wp-image-521" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_4.PNG?raw=true" alt="" width="304" height="479" /></a></p>
 
 9-Click on the "Connect to Folder" button near the top of the Catalogue window. Navigate to the <strong>Desktop</strong> where your <strong>cb_2016_us_state_5m folder</strong> is located. Click on the folder and select <strong>OK</strong>. The folder will now appear in your catalogue window.
 
 10-Click on the <strong>"+"</strong> symbol next to the folder, which will expand to show the files included in the folder.
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_5.PNG?raw=true"><img class="aligncenter size-large wp-image-522" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_5.PNG?raw=true" alt="" width="676" height="356" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_5.PNG?raw=true"><img class="aligncenter size-large wp-image-522" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_5.PNG?raw=true" alt="" width="676" height="356" /></a></p>
 
 11-Locate the <strong>cb_2016_us_state_5m.shp</strong> file, then drag it into the large blank canvas in the middle of the main window. You should now see a U.S. state map drawn in the main canvas.
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_2.PNG?raw=true"><img class="aligncenter size-full wp-image-565" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_2.PNG?raw=true" alt="" width="285" height="58" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_2.PNG?raw=true"><img class="aligncenter size-full wp-image-565" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_2.PNG?raw=true" alt="" width="285" height="58" /></a></p>
 
 12-Save the project by clicking the <strong>floppy disc icon</strong> in the top-left.
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_6.PNG?raw=true"><img class="aligncenter size-full wp-image-523" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_6.PNG?raw=true" alt="" width="457" height="219" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_6.PNG?raw=true"><img class="aligncenter size-full wp-image-523" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_6.PNG?raw=true" alt="" width="457" height="219" /></a></p>
 
 13-Go back to the <strong>Catalog</strong> window, and add another folder connection to your <strong>Desktop</strong>, where the <strong>1871_PostmasterSalary_Data.csv</strong> file is located. Drag the CSV file to the left-hand side of the ArcMap window, under <strong>Table of Contents</strong> and <strong>Layers</strong>.
 
@@ -76,23 +76,23 @@ ArcGIS loads shapefiles and uses them to create layers. Within the Table of Cont
 
 16-Right click on the CSV file in the <strong>Table of Contents</strong> and select <strong>Display XY Data... </strong>from the dropdown menu.
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_7.PNG?raw=true"><img class="aligncenter size-full wp-image-524" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_7.PNG?raw=true" alt="" width="357" height="564" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_7.PNG?raw=true"><img class="aligncenter size-full wp-image-524" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_7.PNG?raw=true" alt="" width="357" height="564" /></a></p>
 
 17-On the pop-up screen, double check that <strong>Longitude</strong> is selected in the X field and <strong>Latitude</strong> is selected in the Y field. No value is needed for the Z field.
 
 18-Click <strong>OK</strong>, and click <strong>OK</strong> again after the Object-ID Field error pops up.
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_8.PNG?raw=true"><img class="aligncenter size-full wp-image-525" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_8.PNG?raw=true" alt="" width="907" height="649" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_8.PNG?raw=true"><img class="aligncenter size-full wp-image-525" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_8.PNG?raw=true" alt="" width="907" height="649" /></a></p>
 
 19-The points from the CSV file have been added to your map as an <strong>Events layer</strong> (see image above) but needed to be saved as a Shapefile.
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_9.PNG?raw=true"><img class="aligncenter size-full wp-image-526" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_9.PNG?raw=true" alt="" width="399" height="330" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_9.PNG?raw=true"><img class="aligncenter size-full wp-image-526" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_9.PNG?raw=true" alt="" width="399" height="330" /></a></p>
 
 20-Right click on the <strong>Events layer</strong> and select <strong>Data-&gt;Export Data.</strong> A dialogue box will pop  up prompting you to choose the export features and coordinate system.
 
 21-Leave the <strong>Export</strong> as the default and select <strong>"the data frame"</strong> for the coordinate system.
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_10.PNG?raw=true"><img class="aligncenter size-full wp-image-527" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_10.PNG?raw=true" alt="" width="857" height="644" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_10.PNG?raw=true"><img class="aligncenter size-full wp-image-527" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_10.PNG?raw=true" alt="" width="857" height="644" /></a></p>
 
 22-Rename the output feature class to <strong>Postal_GIS.shp</strong> and click <strong>OK.</strong> A window will pop up asking if you want to display the exported data as a layer--click <strong>Yes.</strong> A <strong>Postal_GIS layer</strong> should now appear in your <strong>Table of Contents.</strong>
 
@@ -100,19 +100,19 @@ ArcGIS loads shapefiles and uses them to create layers. Within the Table of Cont
 
 24-Save the project.
 
-<blockquote>A note on navigating ArcMap:
+### A note on navigating ArcMap:
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_11.PNG?raw=true"><img class="aligncenter size-full wp-image-528" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_11.PNG?raw=true" alt="" width="618" height="56" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_11.PNG?raw=true"><img class="aligncenter size-full wp-image-528" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_11.PNG?raw=true" alt="" width="618" height="56" /></a></p>
 
-By this point, you may want to explore your map in more detail. The "+" symbol on the main page allows you to zoom in, and the "-" icon is a zoom-out option. The "hand" lets you drag the map around, and the i icon lets you see the dated represented by a specific point.</blockquote>
+By this point, you may want to explore your map in more detail. The "+" symbol on the main page allows you to zoom in, and the "-" icon is a zoom-out option. The "hand" lets you drag the map around, and the i icon lets you see the dated represented by a specific point.
 
 ## Customizing your display:
 
 25-Right now, the geographic information is being drawn on the map according to ArcMap's default settings. The <strong>Symbology</strong> property allows us to customize how data displays on the map.
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_12.PNG?raw=true"><img class="aligncenter size-full wp-image-529" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_12.PNG?raw=true" alt="" width="672" height="563" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_12.PNG?raw=true"><img class="aligncenter size-full wp-image-529" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_12.PNG?raw=true" alt="" width="672" height="563" /></a></p>
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_12.PNG?raw=true"><img class="aligncenter size-full wp-image-530" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_12.PNG?raw=true" alt="" width="672" height="559" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_12.PNG?raw=true"><img class="aligncenter size-full wp-image-530" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_12.PNG?raw=true" alt="" width="672" height="559" /></a></p>
 
 26-Right click on the <strong>Postal_GIS layer</strong> and select <strong>Properties</strong> from the dropdown menu. Click on the <strong>Symbology</strong> tab, and select <strong>Quantities-&gt;Graduated</strong> colors under the <strong>Show</strong> menu on the left-hand side of the <strong>Symbology</strong> window.
 
@@ -122,11 +122,11 @@ By this point, you may want to explore your map in more detail. The "+" symbol o
 
 29-The <strong>Color Ramp</strong> dropdown gives you additional options for coloring your data points.
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_14.PNG?raw=true"><img class="aligncenter size-full wp-image-531" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_14.PNG?raw=true" alt="" width="629" height="486" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_14.PNG?raw=true"><img class="aligncenter size-full wp-image-531" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_14.PNG?raw=true" alt="" width="629" height="486" /></a></p>
 
 By default, ArcMap calculates the ranges using Jenks or Natural Breaks. Click the Classify icon to choose other ways of calculating these intervals.
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_15.PNG?raw=true"><img class="aligncenter size-full wp-image-532" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_15.PNG?raw=true" alt="" width="888" height="646" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_15.PNG?raw=true"><img class="aligncenter size-full wp-image-532" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_15.PNG?raw=true" alt="" width="888" height="646" /></a></p>
 
 30-Leave the other options at their defaults and click <strong>OK</strong>. Notice map points have changed color based on ranges in the postmaster's salary. The <strong>Table of Contents</strong> now includes a legend under the <strong>Postal_GIS layer</strong> that specifies the salary range for each color.
 
@@ -149,23 +149,23 @@ ArcMap also gives you the option of displaying <strong>raster data</strong>. <st
 
 ## Mapping Clusters:
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_2.PNG?raw=true"><img class="aligncenter size-full wp-image-519" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_2.PNG?raw=true" alt="" width="147" height="23" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_2.PNG?raw=true"><img class="aligncenter size-full wp-image-519" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_2.PNG?raw=true" alt="" width="147" height="23" /></a></p>
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_16.PNG?raw=true"><img class="aligncenter size-full wp-image-534" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_16.PNG?raw=true" alt="" width="301" height="600" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_16.PNG?raw=true"><img class="aligncenter size-full wp-image-534" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_16.PNG?raw=true" alt="" width="301" height="600" /></a></p>
 
 32-Select the <strong>ArcToolbox</strong>, and click the dropdown for <strong>Spatial Analyst</strong>. Click on <strong>Point Density</strong>.
 
 33-If the tool doesn't open, click on the Customize dropdown at the main ArcMap menu, select <strong>extensions</strong>, and be sure <strong>spatial analyst</strong> is checked.
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_17.PNG?raw=true"><img class="aligncenter size-full wp-image-535" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_17.PNG?raw=true" alt="" width="588" height="415" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_17.PNG?raw=true"><img class="aligncenter size-full wp-image-535" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_17.PNG?raw=true" alt="" width="588" height="415" /></a></p>
 
 34-Select <strong>Postal_GIS</strong> for <strong>Input point features</strong>. Leave <strong>Population field</strong> as <strong>NONE</strong> for now. Change the name of the output layer to <strong>Postal_Den</strong> and leave the other options as defaults. Click <strong>OK</strong>.
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_19.PNG?raw=true"><img class="aligncenter size-large wp-image-537" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_19.PNG?raw=true" alt="" width="676" height="535" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_19.PNG?raw=true"><img class="aligncenter size-large wp-image-537" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_19.PNG?raw=true" alt="" width="676" height="535" /></a></p>
 
 35-A new layer should appear in your table of contents. If the new layer is covered by other layers, we need to change the drawing order of layers to make the density layer visible.
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_20.PNG?raw=true"><img class="aligncenter size-full wp-image-538" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_20.PNG?raw=true" alt="" width="151" height="47" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_20.PNG?raw=true"><img class="aligncenter size-full wp-image-538" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_20.PNG?raw=true" alt="" width="151" height="47" /></a></p>
 
 36-Click on the <strong>Drawing Order View</strong> icon in the <strong>Table of Contents</strong> to select the drawing order view.
 
@@ -175,7 +175,7 @@ ArcMap also gives you the option of displaying <strong>raster data</strong>. <st
 
 39-Right click on the <strong>Postal_Den</strong> layer and select <strong>Properties</strong> from the dropdown.
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_22.PNG?raw=true"><img class="aligncenter size-full wp-image-540" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_22.PNG?raw=true" alt="" width="654" height="502" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_22.PNG?raw=true"><img class="aligncenter size-full wp-image-540" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_22.PNG?raw=true" alt="" width="654" height="502" /></a></p>
 
 40-Select <strong>Symbology</strong> and see the numeric ranges assigned to each color under <strong>Symbol</strong>.
 
@@ -202,7 +202,8 @@ In addition to creating new spatial visualizations of our data, ArcMap can also 
 
 48-Reopen <strong>ArcToolbox</strong> and select <strong>Analyzing Patterns</strong> within <strong>Spatial Statistics</strong>. Select <strong>Spatial Autocorrelation (Morans I).</strong>
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_25.PNG?raw=true"><img class="aligncenter size-full wp-image-543" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_25.PNG?raw=true" alt="" width="592" height="416" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_25.PNG?raw=true"><img class="aligncenter size-full wp-image-543" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_25.PNG?raw=true" alt="" width="592" height="416" /></a></p>
+
 49-For <strong>Input Feature Class</strong>, select <strong>Postal_GIS</strong> layer from the dropdown.
 
 50-For <strong>Input Field</strong> select <strong>PM_Salary</strong>.
@@ -215,11 +216,11 @@ In addition to creating new spatial visualizations of our data, ArcMap can also 
 
 54-You will see a <strong>blue rectangular pop-up</strong> in the bottom right corner of the screen. A <strong>checkmark</strong> means the analysis was completed successfully, and a <strong>caution sign</strong> means errors occurred during the analysis.
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_26.PNG?raw=true"><img class="aligncenter size-large wp-image-544" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_26.PNG?raw=true" alt="" width="676" height="382" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_26.PNG?raw=true"><img class="aligncenter size-large wp-image-544" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_26.PNG?raw=true" alt="" width="676" height="382" /></a></p>
 
 55-To open the <strong>analysis report</strong>, click on the <strong>Geoprocessing-&gt;Results </strong>to see the analysis results.
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_27.PNG?raw=true"><img class="aligncenter size-large wp-image-545" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_27.PNG?raw=true" alt="" width="676" height="489" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_27.PNG?raw=true"><img class="aligncenter size-large wp-image-545" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_27.PNG?raw=true" alt="" width="676" height="489" /></a></p>
 
 56-Click on the <strong>Report File html</strong> file, which will open in a browser window. What does the report say about the randomness of the data? To what degree is it clustered, random, or dispersed? What could those trends say about the distribution of postmaster salaries across western states?
 
@@ -234,9 +235,9 @@ For this tutorial, you'll export the map you created as an image, without adding
 
 ArcMap gives you the option to add scale bars, images, and legends to your map using the Page Layout functionality. <a href="http://desktop.arcgis.com/en/arcmap/latest/map/page-layouts/a-quick-tour-of-page-layouts.htm">Click here</a> to learn more about Page Layouts.
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_28.PNG?raw=true"><img class="aligncenter size-full wp-image-637" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_28.PNG?raw=true" alt="" width="191" height="418" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_28.PNG?raw=true"><img class="aligncenter size-full wp-image-637" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_28.PNG?raw=true" alt="" width="191" height="418" /></a></p>
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_29.PNG?raw=true"><img class="aligncenter size-full wp-image-638" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_29.PNG?raw=true" alt="" width="564" height="722" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_29.PNG?raw=true"><img class="aligncenter size-full wp-image-638" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_29.PNG?raw=true" alt="" width="564" height="722" /></a></p>
 
 59-Click <strong>File-Export Map</strong>, and select TIFF or JPG under <strong>Save as type</strong>. Change the resolution to 600 dpi (dots per inch) to export an image with archive-quality resolution.
 
