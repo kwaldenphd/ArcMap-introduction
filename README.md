@@ -15,8 +15,9 @@ ArcGIS Tutorial is licensed under a <a href="http://creativecommons.org/licenses
 
 <hr />
 
-<h5>Data:</h5>
-1-Navigate to \\storage\projects\HIS\HIS-295-02\Postal_Data in File Explorer.
+## Data
+
+1-Download the <strong>Data</strong> folder from this GitHub repo.
 
 2-This folder will contain a <strong>folder </strong>(cb_2016_us_state_5m) and <strong>CSV file</strong> (1871_PostmasterSalary_Data.csv)
 
@@ -25,16 +26,21 @@ ArcGIS Tutorial is licensed under a <a href="http://creativecommons.org/licenses
 4-Open the cb_2016_us_state_5m folder.
 
 5- Explore the file extensions, and open the CSV file (1871_PostmasterSalary_Data.csv) to review the structure of the postal data.
+
 <blockquote>A note on file types:
 
 ArcGIS draws data on a map using shape files (.shp). A Shapefile is actually comprised of a package of individual files, but ArcGIS reads all of  those files together as a Shapefile. Once in ArcGIS, Shapefiles become part of layers. ArcGIS can read other file types (CSV, GeoJson, KML), but the program needs to turn that data into a Shapefile in order to save, analyze, and export it.</blockquote>
-<h4>Starting ArcMap and Importing Data:</h4>
+
+## Starting ArcMap and Importing Data:
+
 6-To open ArcMap, go to <strong>Start</strong>, then type "ArcMap" into the search bar. Click on the globe icon that pops up to start the program.
 
 <a href="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_1.png"><img class="aligncenter size-full wp-image-518" src="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_1.png" alt="" width="799" height="519" /></a>
 
 7-Click on the <strong>Blank Map</strong> icon, and the program will open a blank ArcGIS map project. Save this project as "GIS_Tutorial" or another descriptive name of your choosing.
-<h5>Importing Shapefiles into ArcMap:</h5>
+
+## Importing Shapefiles into ArcMap:
+
 <a href="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_2.png"><img class="aligncenter size-full wp-image-519" src="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_2.png" alt="" width="147" height="23" /></a>
 
 8-Click on the <strong>Catalog</strong> button on the right-hand side of the window to open <strong>ArcCatalog</strong>, ArcMap's program for connecting to files on your computer. ArcCatalogue can be run independently or within ArcMap, and locates files on your computer using folder connections.
@@ -54,6 +60,7 @@ ArcGIS draws data on a map using shape files (.shp). A Shapefile is actually com
 12-Save the project by clicking the <strong>floppy disc icon</strong> in the top-left.
 
 <a href="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_6.png"><img class="aligncenter size-full wp-image-523" src="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_6.png" alt="" width="457" height="219" /></a>
+
 13-Go back to the <strong>Catalog</strong> window, and add another folder connection to your <strong>Desktop</strong>, where the <strong>1871_PostmasterSalary_Data.csv</strong> file is located. Drag the CSV file to the left-hand side of the ArcMap window, under <strong>Table of Contents</strong> and <strong>Layers</strong>.
 
 14-Save the map project.
@@ -62,17 +69,21 @@ ArcGIS draws data on a map using shape files (.shp). A Shapefile is actually com
 <blockquote>Another note on file types:
 
 ArcGIS loads shapefiles and uses them to create layers. Within the Table of Contents, you will see the shapefiles and data that have been added to the project.</blockquote>
-<h5>Adding data points to the map:</h5>
+
+## Adding data points to the map:
+
 15-Right now, the <strong>cb_2016 shape file</strong> is drawing shape outlines, but the <strong>1871_PostmasterSalary_Data CSV file</strong> does not have any spatial data to display.
 
 16-Right click on the CSV file in the <strong>Table of Contents</strong> and select <strong>Display XY Data... </strong>from the dropdown menu.
 
 <a href="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_7.png"><img class="aligncenter size-full wp-image-524" src="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_7.png" alt="" width="357" height="564" /></a>
+
 17-On the pop-up screen, double check that <strong>Longitude</strong> is selected in the X field and <strong>Latitude</strong> is selected in the Y field. No value is needed for the Z field.
 
 18-Click <strong>OK</strong>, and click <strong>OK</strong> again after the Object-ID Field error pops up.
 
 <a href="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_8.png"><img class="aligncenter size-full wp-image-525" src="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_8.png" alt="" width="907" height="649" /></a>
+
 19-The points from the CSV file have been added to your map as an <strong>Events layer</strong> (see image above) but needed to be saved as a Shapefile.
 
 <a href="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_9.png"><img class="aligncenter size-full wp-image-526" src="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_9.png" alt="" width="399" height="330" /></a>
@@ -88,12 +99,15 @@ ArcGIS loads shapefiles and uses them to create layers. Within the Table of Cont
 23-The checkboxes next to layer names allow you to decide which layers are drawn on your map. Right click on the <strong>Postal_GIS.csv Events</strong> layer and the <strong>Postal_GIS.csv file</strong> and select remove to remove these layers from your project.
 
 24-Save the project.
+
 <blockquote>A note on navigating ArcMap:
 
 <a href="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_11.png"><img class="aligncenter size-full wp-image-528" src="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_11.png" alt="" width="618" height="56" /></a>
 
 By this point, you may want to explore your map in more detail. The "+" symbol on the main page allows you to zoom in, and the "-" icon is a zoom-out option. The "hand" lets you drag the map around, and the i icon lets you see the dated represented by a specific point.</blockquote>
-<h5>Customizing your display:</h5>
+
+## Customizing your display:
+
 25-Right now, the geographic information is being drawn on the map according to ArcMap's default settings. The <strong>Symbology</strong> property allows us to customize how data displays on the map.
 
 <a href="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_12.png"><img class="aligncenter size-full wp-image-529" src="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_12.png" alt="" width="672" height="563" /></a>
@@ -117,16 +131,24 @@ By default, ArcMap calculates the ranges using Jenks or Natural Breaks. Click th
 30-Leave the other options at their defaults and click <strong>OK</strong>. Notice map points have changed color based on ranges in the postmaster's salary. The <strong>Table of Contents</strong> now includes a legend under the <strong>Postal_GIS layer</strong> that specifies the salary range for each color.
 
 31-Save your project.
-<h5>Additional display options:</h5>
+
+### Additional display options:
+
 <ul>
  	<li>We are using the cb_shape file to draw the U.S. map with state boundaries for our data points. We could also use a basemap in ArcMap to display this background. In the <strong>Table of Contents</strong>, uncheck the cb_shape file. Click on the <strong>Add Data</strong> icon and select <strong>Add a Basemap</strong> to see ArcMap's default basemap options. Select a basemap and compare your experience navigating the two different maps. What would be the advantages and disadvantages of using one of ArcMap's basemaps versus using a shapefile to draw the background?</li>
  	<li>You were instructed to color your points based on postmaster salary ranges. What happens when you go back to <strong>Properties-&gt;Symbology</strong> and select a different value (under <strong>Fields</strong>) or select a different option under <strong>Show</strong>? What aspects of the data are emphasized (or become unclear) based on how you display points on the map?</li>
 </ul>
-<h5>Using the ArcToolbox:</h5>
+
+## Using the ArcToolbox:
+
 In addition to visualizing map points, ArcMap includes a wide range of analysis tools, located in the <strong>ArcToolbox</strong>. We will use a spatial analysis tool to look at the density of points in our Postal_GIS shape file, calculated as a magnitude per unit area of points. The neighborhood radius defines the area around each cell from which the magnitude will be calculated.
+
 <blockquote>Even though map layers are based on shapefiles, those files can contain very different types of spatial data. The cb_shapefile that includes state and county boundaries is showing polygon data, while the Postal_GIS layer is showing point data. Like we see with the postal data, combining points and polygons can be useful for analysis. ArcMap just requires each layer or shapefile to represent one type of spatial data. You could have points and polygons within a map project--just not in the same shapefile or layer.</blockquote>
+
 ArcMap also gives you the option of displaying <strong>raster data</strong>. <strong>Raster layers</strong> consist of data that varies continuously or gradually. Data about elevation, geography, weather trends, and similar phenomena are mapped using raster data and raster lays. In the next section of the tutorial, we will use a spatial analysis tool to create a raster layer based on the Postal_GIS points layer.
-<h5>Mapping Clusters:</h5>
+
+## Mapping Clusters:
+
 <a href="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_2.png"><img class="aligncenter size-full wp-image-519" src="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_2.png" alt="" width="147" height="23" /></a>
 
 <a href="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_16.png"><img class="aligncenter size-full wp-image-534" src="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_16.png" alt="" width="301" height="600" /></a>
@@ -136,6 +158,7 @@ ArcMap also gives you the option of displaying <strong>raster data</strong>. <st
 33-If the tool doesn't open, click on the Customize dropdown at the main ArcMap menu, select <strong>extensions</strong>, and be sure <strong>spatial analyst</strong> is checked.
 
 <a href="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_17.png"><img class="aligncenter size-full wp-image-535" src="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_17.png" alt="" width="588" height="415" /></a>
+
 34-Select <strong>Postal_GIS</strong> for <strong>Input point features</strong>. Leave <strong>Population field</strong> as <strong>NONE</strong> for now. Change the name of the output layer to <strong>Postal_Den</strong> and leave the other options as defaults. Click <strong>OK</strong>.
 
 <a href="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_19.png"><img class="aligncenter size-large wp-image-537" src="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_19-1024x811.png" alt="" width="676" height="535" /></a>
@@ -170,7 +193,9 @@ ArcMap also gives you the option of displaying <strong>raster data</strong>. <st
 46-Rename the output to <strong>Salary_Den.</strong>
 
 47-Customize the layer's display like we did with the original density calculation. You can also select a different color ramp under <strong>Properties-&gt;Symbology.</strong>
-<h5>Using ArcToolbox to calculate spatial statistics:</h5>
+
+## Using ArcToolbox to calculate spatial statistics:
+
 In addition to creating new spatial visualizations of our data, ArcMap can also calculate spatial statistics for our data. Spatial statistics can be used to predict or highlight causal relationship between the distribution of points and their attributes. For example, spatial statistics indicate a correlation between the location of houses and the incomes of home residents. We will use the spatial statistic tools to see if there is a significant spatial relationship for postmaster salaries.
 
 <a href="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_24.png"><img class="aligncenter size-full wp-image-542" src="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_24.png" alt="" width="428" height="597" /></a>
@@ -204,12 +229,14 @@ In addition to creating new spatial visualizations of our data, ArcMap can also 
 
 <hr />
 
-<h5>Exporting Your Map as an Image File</h5>
+## Exporting Your Map as an Image File
 For this tutorial, you'll export the map you created as an image, without adding titles, legends, or other map elements that would be necessary for a user to interact with or "read" your map.
 
 ArcMap gives you the option to add scale bars, images, and legends to your map using the Page Layout functionality. <a href="http://desktop.arcgis.com/en/arcmap/latest/map/page-layouts/a-quick-tour-of-page-layouts.htm">Click here</a> to learn more about Page Layouts.
 
-<a href="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_28-e1535726670520.png"><img class="aligncenter size-full wp-image-637" src="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_28-e1535726670520.png" alt="" width="191" height="418" /></a><a href="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_29.png"><img class="aligncenter size-full wp-image-638" src="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_29.png" alt="" width="564" height="722" /></a>
+<a href="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_28-e1535726670520.png"><img class="aligncenter size-full wp-image-637" src="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_28-e1535726670520.png" alt="" width="191" height="418" /></a>
+
+<a href="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_29.png"><img class="aligncenter size-full wp-image-638" src="http://sarahjpurcell.sites.grinnell.edu/digital_methods/wp-content/uploads/2018/08/Capture_29.png" alt="" width="564" height="722" /></a>
 
 59-Click <strong>File-Export Map</strong>, and select TIFF or JPG under <strong>Save as type</strong>. Change the resolution to 600 dpi (dots per inch) to export an image with archive-quality resolution.
 
@@ -219,7 +246,8 @@ ArcMap gives you the option to add scale bars, images, and legends to your map u
 
 <hr />
 
-<strong><em>Tutorial reflection questions:</em></strong>
+# Reflection questions: 
+
 <ul>
  	<li><em>How is using a tool like ArcGIS for spatial analysis different than Carto or Google Maps?</em></li>
  	<li><em>What features or aspects of the data were you able to analyze and visualize in ArcGIS that you hadn't thought about before?</em></li>
