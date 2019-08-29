@@ -41,7 +41,7 @@ ArcGIS draws data on a map using shape files (.shp). A Shapefile is actually com
 
 ## Importing Shapefiles into ArcMap:
 
-<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_2.PNG?raw=true"><img class="aligncenter size-full wp-image-519" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_1.PNG?raw=true" alt="" width="147" height="23" /></a></p>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_2.PNG?raw=true"><img class="aligncenter size-full wp-image-519" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_1.PNG?raw=true" alt="" /></a></p>
 
 8-Click on the <strong>Catalog</strong> button on the right-hand side of the window to open <strong>ArcCatalog</strong>, ArcMap's program for connecting to files on your computer. ArcCatalogue can be run independently or within ArcMap, and locates files on your computer using folder connections.
 
@@ -198,7 +198,7 @@ ArcMap also gives you the option of displaying <strong>raster data</strong>. <st
 
 In addition to creating new spatial visualizations of our data, ArcMap can also calculate spatial statistics for our data. Spatial statistics can be used to predict or highlight causal relationship between the distribution of points and their attributes. For example, spatial statistics indicate a correlation between the location of houses and the incomes of home residents. We will use the spatial statistic tools to see if there is a significant spatial relationship for postmaster salaries.
 
-<a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_24.PNG?raw=true"><img class="aligncenter size-full wp-image-542" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_24.PNG?raw=true" alt="" width="428" height="597" /></a>
+<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_24.PNG?raw=true"><img class="aligncenter size-full wp-image-542" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_24.PNG?raw=true" alt="" width="428" height="597" /></a></p>
 
 48-Reopen <strong>ArcToolbox</strong> and select <strong>Analyzing Patterns</strong> within <strong>Spatial Statistics</strong>. Select <strong>Spatial Autocorrelation (Morans I).</strong>
 
@@ -234,8 +234,6 @@ In addition to creating new spatial visualizations of our data, ArcMap can also 
 For this tutorial, you'll export the map you created as an image, without adding titles, legends, or other map elements that would be necessary for a user to interact with or "read" your map.
 
 ArcMap gives you the option to add scale bars, images, and legends to your map using the Page Layout functionality. <a href="http://desktop.arcgis.com/en/arcmap/latest/map/page-layouts/a-quick-tour-of-page-layouts.htm">Click here</a> to learn more about Page Layouts.
-
-<p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_28.PNG?raw=true"><img class="aligncenter size-full wp-image-637" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_28.PNG?raw=true" alt="" width="191" height="418" /></a></p>
 
 <p align="center"><a href="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_29.PNG?raw=true"><img class="aligncenter size-full wp-image-638" src="https://github.com/kwaldenphd/ArcMap-introduction/blob/master/screenshots/Capture_29.PNG?raw=true" alt="" width="564" height="722" /></a></p>
 
